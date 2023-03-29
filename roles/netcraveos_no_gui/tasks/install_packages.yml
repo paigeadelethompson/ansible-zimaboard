@@ -25,7 +25,6 @@
       - nmap
       - docker-compose
       - cockpit
-      - cockpit-podman
       - ima-evm-utils
       - build-essential 
       - linux-source 
