@@ -4,6 +4,8 @@ About Zimaboard: https://www.zimaboard.com
 
 CasaOS: https://www.casaos.io
 
+This just wouldn't be complete without it's own OS for automation: https://github.com/paigeadelethompson/netcraveos_zimaboard
+
 Quickstart
 ------------
 
