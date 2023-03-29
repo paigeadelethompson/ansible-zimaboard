@@ -13,6 +13,22 @@
     path: /home/debian/.ssh
     state: directory
 
+- name: testing.pref.j2
+  ansible.builtin.template:
+    src: etc/apt/preferences.d/testing.pref.j2
+    dest: /etc/apt/preferences.d/testing.pref
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: stable.pref.j2
+  ansible.builtin.template:
+    src: etc/apt/preferences.d/stable.pref.j2
+    dest: /etc/apt/preferences.d/stable.pref
+    owner: root
+    group: root
+    mode: '0644'
+
 - name: cockpit.pref.j2
   ansible.builtin.template:
     src: etc/apt/preferences.d/cockpit.pref.j2
